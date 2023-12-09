@@ -1,0 +1,22 @@
+.create_button {
+    display: block;
+    margin-top: 50px;
+    background-color: #fe2c55;
+    /* padding: 16px 20px; */
+    padding: 0px 20px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border: none;
+    outline: none;
+}
+
+.create_button_text {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+}

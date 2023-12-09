@@ -1,0 +1,31 @@
+.fourth_component_wrapper {
+    background-color: black;
+    color: white;
+    padding: 64px 108px;
+}
+
+.fourth_component_flex {
+    column-gap: 30px;
+    display: flex;
+}
+
+.fourth_component_heading {
+    font-size: 4.2vw;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 750px) {
+    .fourth_component_wrapper {
+        padding: 64px 50px;
+    }
+
+    .fourth_component_flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth_component_heading {
+        font-size: 10vw;
+        line-height: 12vw;
+    }
+}

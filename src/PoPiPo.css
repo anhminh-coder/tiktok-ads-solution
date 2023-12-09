@@ -1,0 +1,58 @@
+.popipo_heading {
+    font-size: 2vw;
+    line-height: 3vw;
+    margin: 15px 0px;
+}
+
+.popipo_wrapper {
+    width: 500px;
+}
+
+.popipo_image {
+    height: 18vw;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.popipo_content {
+    height: 4vw;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+}
+
+.popipo_stats {
+    height: 8vw;
+    font-size: 2vw;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 750px) {
+    .popipo_heading {
+        font-size: 10vw;
+        margin: 60px 0px;
+    }
+
+    .popipo_content {
+        font-size: 5vw;
+        line-height: 6vw;
+        height: fit-content;
+    }
+
+    .popipo_stats {
+        font-size: 8vw;
+        line-height: 10vw;
+        height: fit-content;
+    }
+
+    .popipo_image {
+        height: 50vw;
+    }
+
+    .popipo_wrapper {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}

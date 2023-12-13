@@ -24,7 +24,7 @@ function RegisterForm({ ref }) {
         console.log(userData);
 
         // Make a POST request to the API endpoint
-        fetch('http://localhost:8888/users', {
+        fetch('https://go-example-api.onrender.com/test', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
